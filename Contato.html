@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Starchest - Entre em Contato">
+    <meta name="author" content="[Seu Nome]">
+    <title>Contato - Starchest Company</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o seu arquivo CSS -->
+</head>
+<body>
+    <header>
+        <h1><a href="SitePedrinho.html">Starchest</a></h1>
+        <nav>
+            <ul>
+                <li><a href="Projetos.html">Projetos</a></li>
+                <li><a href="Serviços.html">Serviços</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+                <li><a href="Analises.html">Análises de Clientes</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="contact-info">
+            <h2>Entre em contato!</h2>
+            <p>Na Starchest, estamos sempre prontos para ouvir você. Se tiver alguma dúvida, sugestão ou precisar de mais informações sobre nossos serviços, entre em contato conosco através dos meios abaixo:</p>
+            <ul>
+                <li><strong>Telefone:</strong> (123) 456-7890</li>
+                <li><strong>Email:</strong> contact@company.com</li>
+                <li><strong>Endereço:</strong> 123 Main Street, City, Country</li>
+            </ul>
+        </section>
+
+        <section id="contact-form">
+            <h2>Solicite um Orçamento</h2>
+            <p>Se você deseja um orçamento personalizado para nossos serviços, preencha o formulário abaixo com suas informações e detalhes do projeto:</p>
+            <form action="https://formsubmit.co/laisschmidt@outlook.com" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <label for="company">Nome da Empresa:</label>
+                <input type="text" id="company" name="company">
+                
+                <label for="service">Serviço de Interesse:</label>
+                <select id="service" name="service" required>
+                    <option value="web-development">Desenvolvimento de Sites</option>
+                    <option value="app-development">Desenvolvimento de Aplicativos</option>
+                    <option value="system-development">Desenvolvimento de Sistemas</option>
+                    <option value="ai-solutions">Soluções de Inteligência Artificial</option>
+                    <option value="other">Outro</option>
+                </select>
+                
+                <label for="details">Detalhes do Projeto:</label>
+                <textarea id="details" name="details" rows="5" placeholder="Descreva o seu projeto, incluindo quaisquer requisitos específicos ou perguntas que você tenha." required></textarea>
+                
+                <button type="submit">Solicitar Orçamento</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Starchest Company. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="scripts.js"></script> <!-- Link para o seu arquivo JavaScript -->
+</body>
+</html>

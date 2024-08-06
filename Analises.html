@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Análises de Clientes da Starchest Company">
+    <meta name="author" content="Starchest">
+    <title>Análises de Clientes - Starchest Company</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o seu arquivo CSS -->
+</head>
+<body>
+    <header>
+        <h1><a href="SitePedrinho.html">Starchest</a></h1>
+        <nav>
+            <ul>
+                <li><a href="Projetos.html">Projetos</a></li>
+                <li><a href="Serviços.html">Serviços</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+                <li><a href="Analises.html">Análises de Clientes</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="customer-reviews">
+            <h2>Análises de Clientes</h2>
+            <p>Veja o que nossos clientes estão dizendo sobre nós:</p>
+            
+            <article class="review">
+                <h3>João Silva</h3>
+                <p><strong>Data:</strong> 01/08/2024</p>
+                <p><strong>Comentário:</strong> A Starchest Company transformou nossa maneira de trabalhar. A equipe é extremamente profissional e os serviços são de alta qualidade. Recomendo fortemente!</p>
+            </article>
+            
+            <article class="review">
+                <h3>Maria Oliveira</h3>
+                <p><strong>Data:</strong> 15/07/2024</p>
+                <p><strong>Comentário:</strong> Excelente atendimento e suporte técnico. Solucionaram todos os nossos problemas com rapidez e eficiência. Parabéns, Starchest!</p>
+            </article>
+            
+            <article class="review">
+                <h3>Carlos Souza</h3>
+                <p><strong>Data:</strong> 22/06/2024</p>
+                <p><strong>Comentário:</strong> Estamos muito satisfeitos com os resultados alcançados. A Starchest Company superou nossas expectativas em todos os aspectos.</p>
+            </article>
+            
+            <!-- Adicione mais análises conforme necessário -->
+        </section>
+        
+        <section id="feedback-form">
+            <h2>Deixe seu elogio ou crítica!</h2>
+            <form action="https://formsubmit.co/laisschmidt@outlook.com" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="date">Data:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="feedback">Comentário:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                
+                <label for="rating">Avaliação:</label>
+                <select id="rating" name="rating" required>
+                    <option value="5">5 - Excelente</option>
+                    <option value="4">4 - Muito Bom</option>
+                    <option value="3">3 - Bom</option>
+                    <option value="2">2 - Regular</option>
+                    <option value="1">1 - Ruim</option>
+                </select>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Starchest Company. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="scripts.js"></script> <!-- Link para o seu arquivo JavaScript -->
+</body>
+</html>
