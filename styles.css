@@ -13,6 +13,28 @@ nav ul {
     padding: 0;
 }
 
+.login-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.login-button {
+    display: inline-block;
+    padding: 15px 30px; /* Aumenta o tamanho do botão */
+    border: none; /* Remove a borda */
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background: #555;
+}
+
+
 nav ul li {
     display: inline;
     margin: 0 10px;
@@ -79,18 +101,23 @@ header h1 a {
     text-decoration: none;
 }
 nav ul {
-    list-style: none;
+    display: flex;
+    justify-content: center;
     padding: 0;
     margin: 0;
-    text-align: center;
+    list-style: none;
 }
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline-block;
+    margin: 0 10px;
+    white-space: nowrap; /* Impede a quebra de linha no texto */
+    overflow: hidden; /* Oculta o excesso de texto */
+    text-overflow: ellipsis; /* Adiciona uma elipse para o texto que não cabe */
 }
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    display: block;
 }
 .container {
     width: 80%;

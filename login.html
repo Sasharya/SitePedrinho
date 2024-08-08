@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de Login - Starchest Tecnologia">
+    <meta name="author" content="Starchest Tecnologia">
+    <title>Login - Starchest Tecnologia</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o seu arquivo CSS -->
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Starchest</a></h1>
+        <nav>
+            <ul>
+                <li><a href="Serviços.html">Serviços</a></li>
+                <li><a href="Projetos.html">Projetos</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+                <li><a href="Analises.html">Análises de Clientes</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="login-section">
+            <h2>Faça login com as informações do projeto.</h2>
+            <form action="login-process.php" method="POST">
+                <label for="cnpj-cpf">CNPJ/CPF:</label>
+                <input type="text" id="cnpj-cpf" name="cnpj-cpf" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Entrar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Starchest Company. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="scripts.js"></script> <!-- Link para o seu arquivo JavaScript -->
+</body>
+</html>
