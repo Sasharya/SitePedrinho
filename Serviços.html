@@ -13,8 +13,8 @@
         <h1><a href="index.html">Starchest</a></h1>
         <nav>
             <ul>
-                <li><a href="Projetos.html">Projetos</a></li>
                 <li><a href="Serviços.html">Serviços</a></li>
+                <li><a href="Projetos.html">Projetos</a></li>
                 <li><a href="Contato.html">Contato</a></li>
                 <li><a href="Analises.html">Análises de Clientes</a></li>
             </ul>
@@ -22,39 +22,52 @@
     </header>
     
     <main>
+        <div class="login-section">
+            <h2>Área de Login</h2>
+            <form action="login_process.php" method="POST">
+                <label for="cnpj">CNPJ:</label>
+                <input type="text" id="cnpj" name="cnpj" required>
+                
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
         <section id="services">
             <h2>Nossos Serviços</h2>
             <p>Na Starchest Company, oferecemos uma ampla gama de serviços para atender às necessidades de nossos clientes. Confira abaixo alguns dos serviços que prestamos:</p>
             
-            <article class="service">
+            <div class="service">
                 <h3>Desenvolvimento de Sites</h3>
                 <p>Criamos sites modernos, responsivos e personalizados para destacar sua presença online e atrair mais clientes. Nosso foco é proporcionar a melhor experiência de navegação para os usuários.</p>
-            </article>
+            </div>
             
-            <article class="service">
+            <div class="service">
                 <h3>Desenvolvimento de Aplicativos</h3>
                 <p>Desenvolvemos aplicativos móveis para Android e iOS, com funcionalidades avançadas e interfaces intuitivas, ajudando sua empresa a alcançar um público maior e a oferecer mais valor aos seus clientes.</p>
-            </article>
+            </div>
             
-            <article class="service">
+            <div class="service">
                 <h3>Sistemas para Empresas</h3>
                 <p>Desenvolvemos sistemas personalizados para atender às necessidades específicas de sua empresa, desde gestão de processos até automação de tarefas, garantindo mais eficiência e produtividade.</p>
-            </article>
+            </div>
             
-            <article class="service">
+            <div class="service">
                 <h3>Inteligência Artificial</h3>
                 <p>Implementamos soluções de inteligência artificial que podem transformar seu negócio, desde chatbots para atendimento ao cliente até análise de dados para tomada de decisões mais informadas.</p>
-            </article>
+            </div>
             
-            <article class="service">
+            <div class="service">
                 <h3>Consultoria em TI</h3>
                 <p>Oferecemos consultoria especializada para ajudar sua empresa a identificar oportunidades de melhoria, implementar novas tecnologias e otimizar seus processos de TI.</p>
-            </article>
+            </div>
             
             <!-- Adicione mais serviços conforme necessário -->
 
-            <h1><a href="Portfolios.html">Conheça nossos mentores!</a></h1>
-
+            <div class="leaders-link">
+                <h1><a href="Portfolios.html">Conheça os líderes!</a></h1>
+            </div>
 
         </section>
     </main>
